@@ -29,12 +29,12 @@ public class Main {
         int[] array = new int[10];
         for (int j = 0; j < array.length; j++) {
             array[j] = (int) Math.round((Math.random() * 21) + 9);
-            double sum = 0;
+            double average = 0;
             for (j = 0; j < array.length; j++) {
-                sum += array[j];
+                average += array[j];
             }
-            sum /= array.length;
-            System.out.println("Summa=" + sum);
+            average /= array.length;
+            System.out.println("Average=" + average);
         }
 
     }
@@ -45,11 +45,10 @@ public class Main {
      */
     public static String createString() {
         StringBuilder sb = new StringBuilder();
-        String result = "";
         for (int i = 1; i <= 30; i++) {
-            result += "(" + i + ")";
+            sb.append("(").append(i).append(")");
         }
-        return result;
+        return sb.toString();
     }
 }
 
