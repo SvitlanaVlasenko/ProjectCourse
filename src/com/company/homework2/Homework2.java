@@ -36,8 +36,6 @@ public class Homework2 {
     }
 
     public static int numJewelsInStones() {
-
-
         String jewels = "aA";
         String stones = "aAAbbbb";
         int jewel = jewels.length(), stone = stones.length(), count = 0;
