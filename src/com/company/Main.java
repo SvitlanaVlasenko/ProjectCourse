@@ -5,6 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+
         System.out.println(createString());
 
         /** 2) Вывести ряд чисел от 1 до 100 через пробел, с изменениями:
