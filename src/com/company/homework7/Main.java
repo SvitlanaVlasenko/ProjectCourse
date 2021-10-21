@@ -10,6 +10,7 @@ public class Main {
 
     }
 
+
     public static Participant[] getParticipants() {
         Participant[] participants = {new Cat(), new Robot(), new People()};
         return participants;
