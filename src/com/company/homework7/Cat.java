@@ -1,18 +1,18 @@
 package com.company.homework7;
 
-public class Cat extends Barrier {
+public class Cat extends Participant {
 
     @Override
-    public void overcome() {
+    public void barrier() {
         catrun();
         catjump();
     }
 
-    private void catrun() {
+    public void catrun() {
         System.out.println("Cat run....");
     }
 
-    private void catjump() {
+    public void catjump() {
         System.out.println("Cat jump....");
     }
 
