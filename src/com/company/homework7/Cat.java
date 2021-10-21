@@ -3,8 +3,12 @@ package com.company.homework7;
 public class Cat extends Participant {
 
     @Override
-    public void barrier() {
+    public void run() {
         catrun();
+    }
+
+    @Override
+    public void jump() {
         catjump();
     }
 
@@ -15,6 +19,5 @@ public class Cat extends Participant {
     public void catjump() {
         System.out.println("Cat jump....");
     }
-
 
 }

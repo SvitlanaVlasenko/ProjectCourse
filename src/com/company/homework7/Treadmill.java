@@ -5,7 +5,6 @@ public class Treadmill extends Barrier {
     public void overcome() {
         treadmill();
     }
-
     public void treadmill() {
         System.out.print("treadmill");
     }

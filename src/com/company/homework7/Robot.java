@@ -2,11 +2,14 @@ package com.company.homework7;
 
 public class Robot extends Participant {
     @Override
-    public void barrier() {
+    public void run() {
         robotrun();
-        robotjump();
     }
 
+    @Override
+    public void jump() {
+        robotjump();
+    }
     public void robotrun() {
         System.out.println("Robot run....");
     }
@@ -14,6 +17,7 @@ public class Robot extends Participant {
     public void robotjump() {
         System.out.println("Robot jump....");
     }
+
 
 
 }

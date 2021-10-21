@@ -2,11 +2,14 @@ package com.company.homework7;
 
 public class People extends Participant {
     @Override
-    public void barrier() {
+    public void run() {
         peoplerun();
-        peoplejump();
     }
 
+    @Override
+    public void jump() {
+        peoplejump();
+    }
     public void peoplerun() {
         System.out.println("People run....");
     }

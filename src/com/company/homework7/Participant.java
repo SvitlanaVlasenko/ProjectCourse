@@ -2,11 +2,19 @@ package com.company.homework7;
 
 public abstract class Participant {
 
+
     public void print() {
         System.out.print("Participant ");
-        barrier();
+        run();
+        jump();
+
     }
 
-    public abstract void barrier();
+    public abstract void run();
+    public abstract void jump();
+
+
+
+
 }
 

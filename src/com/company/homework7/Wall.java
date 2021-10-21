@@ -1,6 +1,7 @@
 package com.company.homework7;
 
 public class Wall extends Barrier {
+
     @Override
     public void overcome() {
         wall();
@@ -9,6 +10,7 @@ public class Wall extends Barrier {
     public void wall() {
         System.out.print("wall");
     }
+
 
 
 }
